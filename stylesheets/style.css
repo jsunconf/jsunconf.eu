@@ -1,0 +1,68 @@
+body {
+  background-image: url("../images/gray_jean_@2X.jpg");
+  font-family: "Oxygen", "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 2em;
+  color: #171717;
+}
+
+a {
+  text-decoration: none;
+  color: #171717;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+div#wrapper {
+  text-align: center;
+  margin: 50px;
+  padding-top: 80px;
+}
+
+h1 {
+  font-weight: normal;
+}
+
+.headline {
+  font-size: 1em;
+}
+
+a#title {
+  text-decoration: none;
+}
+
+a.underline {
+  text-decoration: underline;
+}
+
+p.left {
+  text-align: left;
+}
+
+.content.imprint {
+  font-size: 0.5em;
+}
+
+.footer {
+  font-size: 0.7em;
+  bottom: 15px;
+}
+
+.footer.left {
+  left: 5%;
+}
+
+.footer.right {
+  right: 5%;
+  white-space: nowrap;
+}
+
+.fixsmallcontent {
+  bottom: 15px;
+}
+
+.fixsmallcontent .right,
+.fixsmallcontent .left {
+  position: absolute;
+}
